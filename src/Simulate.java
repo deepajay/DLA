@@ -32,7 +32,6 @@ public class Simulate {
 			particle();
 		}
 			
-		//printMatrix();
 		writeImage();
 	}
 	
@@ -145,17 +144,6 @@ public class Simulate {
 			M[newX][newY]=1;
 			x=newX;
 			y=newY;
-		}
-		
-		//System.out.println(x+","+y+" : "+index+"/"+possibleX.size());
-		
-	}
-	
-	public void printMatrix(){
-		for(int i=0;i<size;i++){
-			for(int j=0;j<size;j++)
-				System.out.print(M[i][j]);
-			System.out.println();
 		}
 	}
 
